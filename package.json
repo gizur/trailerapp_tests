@@ -1,26 +1,15 @@
 {
-  "name": "appium-sample-code",
-  "version": "1.0.0",
-  "description": "Appium Sample Code",
+  "name": "trailerapp_tests",
+  "version": "0.0.1",
+  "description": "Trailerapp tests",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/appium/sample-code.git"
+    "url": "git@github.com:gizur/trailerapp_tests.git"
   },
-  "keywords": [
-    "appium",
-    "sampl",
-    "examples"
-  ],
-  "author": "sebv",
-  "license": "Apache 2",
-  "bugs": {
-    "url": "https://github.com/appium/sample-code/issues"
-  },
-  "homepage": "https://github.com/appium/sample-code",
   "devDependencies": {
     "chai": "^2.2.0",
     "chai-as-promised": "^5.0.0",
