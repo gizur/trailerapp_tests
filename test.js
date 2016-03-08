@@ -1,21 +1,18 @@
 "use strict";
 
-//require("./helpers/setup");
 var wd = require("wd");
-
+var _ = require('underscore');
 require('colors');
 var chai = require("chai");
 var chaiAsPromised = require("chai-as-promised");
+
 chai.use(chaiAsPromised);
 var should = chai.should();
 chaiAsPromised.transferPromiseness = wd.transferPromiseness;
 
-
 var debug = console.log.bind(console, 'DEBUG');
 
-var wd = require("wd"),
-  _ = require('underscore'),
-  serverConfigs = {
+var serverConfigs = {
     local: {
       host: 'localhost',
       port: 4723
@@ -41,7 +38,7 @@ var configure = function (driver) {
   });
 };
 
-describe("cordova hello", function () {
+describe("trailerapp tests", function () {
   this.timeout(300000);
   var driver;
   var allPassed = true;
@@ -54,11 +51,11 @@ describe("cordova hello", function () {
 
     var desired = {
       browserName: '',
-      'appium-version': '1.3',
+      'appium-version': '1.5',
       platformName: 'iOS',
-      platformVersion: '8.1',
-      deviceName: 'iPhone Simulator',
-      app: '../trailerapp_v1.2/Besiktning/platforms/ios/build/emulator/Besiktning.app'
+      platformVersion: '9.2',
+      deviceName: 'iPhone Simulator', //'iPhone Simulator','iPhone 6s'
+      app: 'Besiktning/platforms/ios/build/emulator/Besiktning.app'
     };
 
     return driver.init(desired);
