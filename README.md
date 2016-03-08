@@ -1,7 +1,7 @@
 Automated tests
 ===============
 
-Prepatations
+Preparations
 ------------
 
 Make sure that cordova can run the app: `cordova run ios`
