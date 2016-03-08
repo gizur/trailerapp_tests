@@ -20,4 +20,5 @@ Running the tests
 Documentation
 -------------
 
-[Test scenarios](./TESTS.md)
+[Test scenarios for the app](./APP.md)
+[Test scenarios for the portal](./PORTAL.md)
