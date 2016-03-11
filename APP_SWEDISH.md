@@ -117,5 +117,23 @@
 | Se tidigare skador för den trailer som skadan togs bort ifrån. |	Skada ska inte finnas. |
 
 
+## Scenario 10 - Skicka in skaderapport utan mobiltäckning
+
+| test | expected result |
+|------|-----------------|
+| Aktivera "flight mode" på telefonen |	Förlorad mobiltäckning och ingen uppkoppling mot WiFi. |
+| Skapa en ny skaderapport på en trailer som du vet har registrerade skador. |	Felmeddelande visas efter 60 sekunder att befintliga skador inte kunde laddas. |
+| Skicka in skaderapport. |	Fungerar inte, mobiltäckning saknas. |
 
 
+## Scenario 11 - Gå ur appen under pågående skaderapport
+
+| test | expected result |
+|------|-----------------|
+| Välj rapportera ny skada." |	Skärmbild 2 visas. |
+| Under ""typ av skada"". Välj ""Dörrar""" |	Dörr visas i drop down som vald skada |
+| Under ""position""	 välj ""Höger""." | I skärmbild 4. |
+| Välj ""Lägg till bild"""	Kamera visas och det går att ta bild på skada.	I kameraläge. Följ instruktioner för att ta bild. |	Bild läggs till i skaderapport.	I skärmbild 4. |
+| Spara registrerad skada." |	Skärmbild 5 visas. |
+| Gå ur appen och tillbaka till startbilden på telefonen. |	Startbild/skrivbord visas. |
+| Öppna Trailerskadeappen igen |	Verifiera att all information du adderade i skaderapporten fortfarande är kvar. |
