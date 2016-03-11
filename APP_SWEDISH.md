@@ -8,3 +8,25 @@ Scenario 1 - Skapa skaderapport utan skada
 | Välj en geografisk plats." |	Vald geografisk plats visas. |
 | Välj om trailern är plomberad." |	Valet "ja" eller "nej" visas.|
 | Skicka in skaderapport utan att registrera skada." |	Ny skärmbild visas med information om att skaderapport är slutförd. |
+
+
+Scenario 2 - Negativt testfall - Skicka in testrapport utan vald plombering
+
+| test | expected result |
+|------|-----------------|
+| Gör inget val för ""Vald plombering""" ||	
+| Skicka in skaderapport." |	Felmeddelande visas om att val för plombering måste göras. |
+
+
+Scenario 3 - Rapportera 1 skada med 1 bild
+
+| test | expected result |
+|------|-----------------|
+| Välj rapportera ny skada." |	Skärmbild 2 visas.	I skärmbild 4. |
+| Under ""typ av skada"". Välj ""Dörrar""" | Dörr visas i drop down som vald skada	I skärmbild 4. |
+| Under ""position""	 välj ""Höger""." |	Höger visas i drop down som vald skada	I skärmbild 4. |
+| Välj ""Lägg till bild""" |	Kamera visas och det går att ta bild på skada.	I kameraläge. Följ instruktioner för att ta bild.	Bild läggs till i skaderapport. |
+| Under ""Orsakade du skadan"". Välj Ja." |	Ja blir valt.	I skärmbild 4.	|
+| Spara registrerad skada." |	Skärmbild 5 visas.	I skärmbild 5.	|
+| Skicka in skaderapport" |	Popup visar att skaderapport skickas in.	I popup.	|
+| Klicka på Ok." |	Skärmbild 1 visas.		|
