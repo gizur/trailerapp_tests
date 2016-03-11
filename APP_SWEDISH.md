@@ -43,3 +43,20 @@
 | Under ""Orsakade du skadan"". Välj Nej." |	Nej blir valt. |
 | Skicka in skaderapport" |	Popup visar att skaderapport skickas in. |
 | Klicka på Ok." |	Skärmbild 1 visas. |
+
+## Sceario 5 - Skapa skaderapport med 3 rapporterade skador
+
+| test | expected result |
+|------|-----------------|
+| Välj rapportera ny skada." |	Skärmbild 2 visas.	I skärmbild 4.|
+| Under ""typ av skada"". Välj ""Tak""" |	Tak visas i drop down som vald skada	I skärmbild 4. |
+| Under ""position""	 välj ""N/A""." |	N/A visas i drop down som vald skada |
+| Ta bild av skada." |	Bild visas i miniatyr.	I skärmbild 4. |
+| Under ""Orsakade du skadan"". Välj Ja." |	Ja blir valt.	I skärmbild 4. |
+| Spara registrerad skada." |	Skärmbild 5 visas.	I skärmbild 5. |
+| Tryck på ""Lägg till flera skador""" |	Skärmbild 4 visas.	Upprepa skaderegistrering med ytterligare 2 skador. |
+| Se att antalet skador i nedre ""Bläddrings-widget"" visar 1/3." |		I skärmbild 5. |
+| Bläddra bland de nyrapporterade skadorna." |	En skada visas i taget och en text som beskriver skadan visas.	I skärmbild 5. |
+| Skicka in skaderapport" |	Popup visar att skaderapport skickas in.	I popup. |
+| Klicka på Ok." |	Skärmbild 1 visas.	|
+
