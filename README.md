@@ -20,5 +20,7 @@ Running the tests
 Documentation
 -------------
 
-* [Test scenarios for the app](./APP.md)
-* [Test scenarios for the portal](./PORTAL.md)
+* [Test scenarios for the app](./docs/APP.md)
+* [Test scenarios in Swedish](./docs/APP_SWEDISH.md)
+* [Resume bug](./docs/APP_RESUME.md)
+* [Test scenarios for the portal](./docs/PORTAL.md)
