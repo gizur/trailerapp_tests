@@ -1,4 +1,4 @@
-Scenario 1 - Skapa skaderapport utan skada
+## Scenario 1 - Skapa skaderapport utan skada
 
 | test | expected result |
 |------|-----------------|
@@ -10,7 +10,7 @@ Scenario 1 - Skapa skaderapport utan skada
 | Skicka in skaderapport utan att registrera skada." |	Ny skärmbild visas med information om att skaderapport är slutförd. |
 
 
-Scenario 2 - Negativt testfall - Skicka in testrapport utan vald plombering
+## Scenario 2 - Negativt testfall - Skicka in testrapport utan vald plombering
 
 | test | expected result |
 |------|-----------------|
@@ -18,7 +18,7 @@ Scenario 2 - Negativt testfall - Skicka in testrapport utan vald plombering
 | Skicka in skaderapport." |	Felmeddelande visas om att val för plombering måste göras. |
 
 
-Scenario 3 - Rapportera 1 skada med 1 bild
+## Scenario 3 - Rapportera 1 skada med 1 bild
 
 | test | expected result |
 |------|-----------------|
@@ -30,3 +30,16 @@ Scenario 3 - Rapportera 1 skada med 1 bild
 | Spara registrerad skada." |	Skärmbild 5 visas.	I skärmbild 5.	|
 | Skicka in skaderapport" |	Popup visar att skaderapport skickas in.	I popup.	|
 | Klicka på Ok." |	Skärmbild 1 visas.		|
+
+## Scenario 4 -	Rapportera 1 skada med 3 bilder
+
+| test | expected result |
+|------|-----------------|
+| Registrera en skada under ""typ av skada"" och ""position"""	||
+| Välj ""Lägg till bild""" |	Kamera visas och det går att ta bild på skada.|
+| Välj ""Lägg till bild"" igen." |	Kamera visas och det går att ta bild på skada. |
+| Välj ""Lägg till bild"" igen." |	Kamera visas och det går att ta bild på skada. |
+| Välj ""Lägg till bild"" igen." |	Ska inte fungera då max-antalet bilder är 4. Felmeddelande ska visas. |
+| Under ""Orsakade du skadan"". Välj Nej." |	Nej blir valt. |
+| Skicka in skaderapport" |	Popup visar att skaderapport skickas in. |
+| Klicka på Ok." |	Skärmbild 1 visas. |
